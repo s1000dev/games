@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<main>
+		<section class="whacamole">
+			<a href="#" class="btn" id="start">Start a game</a>
+			<p class="justify">You can play whether directly clicking on a mole or just with your numpad!</p>
+			<p id="score">Your score:</p>
+			<p id="points">0</p>
+			<p id="timeleft">Time left:</p>
+			<input value="60" type="number" id="time"></input>
+			<div id="field">
+			</div>
+		</section>
+		<section class="twenty">
+			<a href="#" class="btn" id="start-twenty">Start a game</a>
+			<p class="justify">You can play it only by arrows on your keyboard!</p>
+			<div class="score-container">
+				<div class="score-title">Your score:</div>
+				<span id="score-2048">0</span>
+			</div>
+			<div id="result"></div>
+			<div class="grid">
+			</div>
+		</section>
+		<section class="memory">
+			<a href="#" class="btn" id="start-memory">Start a game</a>
+			<p class="justify">You can play it only by clicking with your mouse!</p>
+			<h3>Your score: <span id="result-memory"></span></h3>
+			<span class="message" id="mess">Start by just clicking on one of these rainbow cards!</span>
+			<div class="memory__inner">
+				<div class="grid-memory">
+		
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+<script src="app.js"></script>
+
+</html>
